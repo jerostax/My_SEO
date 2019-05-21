@@ -11,6 +11,8 @@ Exemple OVH :
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.votredomaine.fr/$1 [R,L]`
 
+Doc OVH du mod_rewrite https://docs.ovh.com/fr/hosting/htaccess-reecriture-url-mod-rewrite/
+
 ## Open Graph protocol
 
 http://ogp.me/
